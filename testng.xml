@@ -1,0 +1,9 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AutomationTesting">
+ <test name="Amazon">
+ <classes>
+ <class name="TestCases.AddToCartTestcases" />
+ </classes>
+ </test>
+</suite>

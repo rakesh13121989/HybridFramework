@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AutomationTesting" duration-ms="53058" started-at="2019-07-23T05:06:24Z" finished-at="2019-07-23T05:07:17Z">
+    <groups>
+    </groups>
+    <test name="Amazon" duration-ms="53058" started-at="2019-07-23T05:06:24Z" finished-at="2019-07-23T05:07:17Z">
+      <class name="TestCases.AddToCartTestcases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.AddToCartTestcases@2038ae61]" name="setUp" is-config="true" duration-ms="9433" started-at="2019-07-23T05:06:24Z" finished-at="2019-07-23T05:06:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SearchProduct()[pri:0, instance:TestCases.AddToCartTestcases@2038ae61]" name="SearchProduct" duration-ms="4725" started-at="2019-07-23T05:06:33Z" finished-at="2019-07-23T05:06:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method status="PASS" signature="ReportLogging(org.testng.ITestResult)[pri:0, instance:TestCases.AddToCartTestcases@2038ae61]" name="ReportLogging" is-config="true" duration-ms="12" started-at="2019-07-23T05:06:38Z" finished-at="2019-07-23T05:06:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchProduct status=SUCCESS method=AddToCartTestcases.SearchProduct()[pri:0, instance:TestCases.AddToCartTestcases@2038ae61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportLogging -->
+        <test-method status="PASS" signature="AddProductToCart()[pri:1, instance:TestCases.AddToCartTestcases@2038ae61]" name="AddProductToCart" duration-ms="37124" started-at="2019-07-23T05:06:38Z" finished-at="2019-07-23T05:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductToCart -->
+        <test-method status="PASS" signature="ReportLogging(org.testng.ITestResult)[pri:0, instance:TestCases.AddToCartTestcases@2038ae61]" name="ReportLogging" is-config="true" duration-ms="0" started-at="2019-07-23T05:07:15Z" finished-at="2019-07-23T05:07:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddProductToCart status=SUCCESS method=AddToCartTestcases.AddProductToCart()[pri:1, instance:TestCases.AddToCartTestcases@2038ae61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportLogging -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:TestCases.AddToCartTestcases@2038ae61]" name="endReport" is-config="true" duration-ms="1732" started-at="2019-07-23T05:07:15Z" finished-at="2019-07-23T05:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- TestCases.AddToCartTestcases -->
+    </test> <!-- Amazon -->
+  </suite> <!-- AutomationTesting -->
+</testng-results>

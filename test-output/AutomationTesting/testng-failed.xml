@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AutomationTesting]">
+  <test thread-count="5" name="Amazon(failed)">
+    <classes>
+      <class name="TestCases.AddToCartTestcases">
+        <methods>
+          <include name="AddProductToCart"/>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="ReportLogging"/>
+        </methods>
+      </class> <!-- TestCases.AddToCartTestcases -->
+    </classes>
+  </test> <!-- Amazon(failed) -->
+</suite> <!-- Failed suite [AutomationTesting] -->
